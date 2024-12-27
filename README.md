@@ -64,38 +64,9 @@ If you wish to offset your carbon footprint, you can proceed by donating trees t
 
 ## 👨‍👩‍👧‍👦Team Members 
 
-- ### 🙋‍♂️Burhan Yıldız
+-Aditya Ranjan
+-Mahesh Kumar
+-Ahibhruth A
+-Ibrahim
 
-<a target="_blank" href="https://www.linkedin.com/in/burhanyildiz/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
-<a target="_blank" href="https://www.kaggle.com/yldzburhan"><img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white"></img></a>
-<a target="_blank" href="https://medium.com/@yildizburhan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></img></a>
-
-
-- ### 🙋‍♀️Ecem Bayındır
-
-<a target="_blank" href="https://www.linkedin.com/in/ecembayindir/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
-<a target="_blank" href="https://www.kaggle.com/ecembayindir"><img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white"></img></a>
-<a target="_blank" href="https://medium.com/@ecembayindir"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></img></a>
-
-- ### 🙋‍♂️Hüseyin Baytar
-
-<a target="_blank" href="https://www.linkedin.com/in/huseyinbaytar/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
-<a target="_blank" href="https://www.kaggle.com/huseyinbaytar"><img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white"></img></a>
-<a target="_blank" href="https://medium.com/@huseyinbaytar"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></img></a>
-
-- ### 🙋‍♀️Serap Gülasar
-
-<a target="_blank" href="https://www.linkedin.com/in/serap-gülasar/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
-<a target="_blank" href="https://www.kaggle.com/serapgulasar"><img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white"></img></a>
-<a target="_blank" href="https://medium.com/@serapgulasar99"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></img></a>
-
-- ### 🙋‍♂️Mesut Duman
-
-<a target="_blank" href="https://www.linkedin.com/in/mesut-duman/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
-<a target="_blank" href="https://www.kaggle.com/dumanmesut"><img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white"></img></a>
-<a target="_blank" href="https://medium.com/@dumanmesut"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></img></a>
-
-## 📺Project Presentation
-
-https://github.com/mesutdmn/Carbon-Footprint-Calculator-App/assets/72805471/657285e0-eded-4296-8937-fd2d22f7aeef
 
