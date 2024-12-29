@@ -18,7 +18,7 @@ def get_base64(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-background = get_base64("./media/background.webp")
+background = get_base64("./media/background.jpg")
 icon2 = get_base64("./media/icon2.png")
 icon3 = get_base64("./media/icon3.png")
 
@@ -32,17 +32,19 @@ def script():
         html(open_script, width=0, height=0)
 
 
-left, middle, right = st.columns([2,3.5,2])
-main, comps , result = middle.tabs([" ", " ", " "])
+left, middle, right = st.columns([1.5, 5, 1.5])  
+main, comps, result = middle.tabs([" ", " ", " "])
 
 with open("./style/main.md", "r", encoding="utf-8") as main_page:
-    main.markdown(f"""{main_page.read()}""")
-
+    main.markdown(
+        f"""<div style="text-align: center;">{main_page.read()}</div>""",
+        unsafe_allow_html=True,
+    )
 _,but,_ = main.columns([1,2,1])
 if but.button("Calculate Your Carbon Footprint!", type="primary"):
     click_element('tab-1')
 
-tab1, tab2, tab3, tab4, tab5 = comps.tabs(["👴 Personal","🚗 Travel","🗑️ Waste","⚡ Energy","💸 Consumption"])
+tab1, tab2, tab3, tab4, tab5 = comps.tabs(["Personal","Travel","Waste","Energy","Consumption"])
 tab_result,_ = result.tabs([" "," "])
 
 def component():
@@ -140,19 +142,7 @@ if resultbutton.button(" ", type = "secondary"):
     tab_result.image(chart(model,ss, sample_df,prediction), use_column_width="auto")
     click_element('tab-2')
 
-pop_button = """<button id = "button-17" class="button-17" role="button"> ❔ Did You Know</button>"""
 _,home,_ = comps.columns([1,2,1])
-_,col2,_ = comps.columns([1,10,1])
-col2.markdown(pop_button, unsafe_allow_html=True)
-pop = """
-<div id="popup" class="DidYouKnow_root">
-<p class="DidYouKnow_title TextNew" style="font-size: 20px;"> ❔ Did you know</p>
-    <p id="popupText" class="DidYouKnow_content TextNew"><span>
-    Each year, human activities release over 40 billion metric tons of carbon dioxide into the atmosphere, contributing to climate change.
-    </span></p>
-</div>
-"""
-col2.markdown(pop, unsafe_allow_html=True)
 
 if home.button("🏡"):
     click_element('tab-0')
