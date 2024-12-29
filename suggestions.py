@@ -1,7 +1,9 @@
 import os
 from huggingface_hub import InferenceClient
+import streamlit as st
 
-HF_API_TOKEN = os.getenv('HF_API_TOKEN')
+HF_API_TOKEN = st.secrets["HF_API_TOKEN"]
+
 client = InferenceClient(api_key=HF_API_TOKEN)
 
 def get_suggestions(input_data, prediction):
