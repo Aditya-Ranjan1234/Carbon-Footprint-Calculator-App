@@ -1,8 +1,9 @@
 import os
 from huggingface_hub import InferenceClient
-import streamlit as st
 
-HF_API_TOKEN = st.secrets["HF_API_TOKEN"]
+HF_API_TOKEN = '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'
+print(HF_API_TOKEN)
+#HF_API_TOKEN = st.secrets["HF_API_TOKEN"]
 
 client = InferenceClient(api_key=HF_API_TOKEN)
 
@@ -31,8 +32,9 @@ def get_suggestions(input_data, prediction):
 
     Based on the above information, please provide 5 suggestions to reduce this individual's carbon footprint. These suggestions should focus on lifestyle changes, energy use, transportation, waste reduction, and consumption habits.
     (IMPORTANT) Give only the 5 suggestions , no other introductory like what data you got etc or ending text.
+    (IMPORTANT) Use English language only
     """
-    
+    print(HF_API_TOKEN)
     try:
         completion = client.chat.completions.create(
             model="Qwen/QwQ-32B-Preview",  
