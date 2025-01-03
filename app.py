@@ -154,7 +154,7 @@ prediction = round(np.exp(model.predict(ss.transform(sample_df))[0]))
 
 column1, column2 = tab1.columns(2)
 _, resultbutton, _ = tab5.columns([1, 1, 1])
-if resultbutton.button(" ", type="secondary"):
+if resultbutton.button("♻️", type="secondary"):
     tab_result.image(chart(model, ss, sample_df, prediction), use_column_width="auto")
     click_element('tab-2')
 
@@ -170,7 +170,7 @@ tree_count = round(prediction / 411.4)
 tab_result.markdown(f"""You owe nature <b>{tree_count}</b> tree{'s' if tree_count > 1 else ''} monthly.""", unsafe_allow_html=True)
 
 if tree_count > 0:
-    proceed_button = tab_result.button("Proceed to offset", key="offset_button", help="Click to offset your carbon footprint", use_container_width=True)
+    proceed_button = tab_result.button("Proceed to offset 🌱", key="offset_button",  type="primary" ,  help="Click to offset your carbon footprint", use_container_width=True)
     if proceed_button:
         data = {
             'Body Type': body_type,  # Body type is a direct text value (e.g., 'normal', 'overweight')
@@ -206,7 +206,7 @@ if tree_count > 0:
                 tab_result.markdown(f"- {suggestion}", unsafe_allow_html=True)
 
 
-if resultmid.button("  ", type="secondary"):
+if resultmid.button("🏡", type="secondary", key="home-button"):
     click_element('tab-1')
 
 with open("./style/footer.html", "r", encoding="utf-8") as footer:
