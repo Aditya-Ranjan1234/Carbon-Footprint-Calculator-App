@@ -1,4 +1,3 @@
-
 <a target="_blank" href="https://carbonfootprintcalculator.streamlit.app/"><img src="media/background.jpg"></img></a>
 
 ## About Carbon Footprint Calculator Project
@@ -44,6 +43,8 @@ The global annual carbon footprint has now surpassed an alarming 40 billion tons
    -Aditya Ranjan<br>
    -Mahesh Kumar<br>
    -Ahibhruth A<br>
-   -Ibrahim
+   -Ibrahim B
+
+   <a target="_blank" href="https://carbonfootprintcalculator.streamlit.app/"><img src="media/Screenshot (122).png"></img></a>
 
 
